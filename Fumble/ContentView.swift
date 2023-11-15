@@ -1,18 +1,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var roll = Roll(name: "d6")
+    @State private var dice = Dice(name: "d6")
+    private let roller = Roller()
 
     var body: some View {
         HStack {
-            TextField("Dice...", text: $roll.name) {
-
-                print("Also Rolling")
-                print(roll.name)
+            TextField("Dice...", text: $dice.name) {
+                roller.roll(dice: dice)
             }
             Button("Roll", systemImage: "dice") {
-                print("Rolling")
-                print(roll.name)
+                roller.roll(dice: dice)
             }
         }
         .padding()

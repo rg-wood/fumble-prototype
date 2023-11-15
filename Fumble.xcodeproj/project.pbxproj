@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C315CF52B04DB7F00808A98 /* Roller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C315CF42B04DB7F00808A98 /* Roller.swift */; };
 		8C3422532B02D744007FE693 /* FumbleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3422522B02D744007FE693 /* FumbleApp.swift */; };
 		8C3422552B02D744007FE693 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3422542B02D744007FE693 /* ContentView.swift */; };
 		8C3422572B02D746007FE693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C3422562B02D746007FE693 /* Assets.xcassets */; };
 		8C34225A2B02D746007FE693 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C3422592B02D746007FE693 /* Preview Assets.xcassets */; };
-		8C3422622B02DF44007FE693 /* Roll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3422612B02DF44007FE693 /* Roll.swift */; };
+		8C3422622B02DF44007FE693 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3422612B02DF44007FE693 /* Dice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C315CF42B04DB7F00808A98 /* Roller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roller.swift; sourceTree = "<group>"; };
 		8C34224F2B02D744007FE693 /* Fumble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fumble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3422522B02D744007FE693 /* FumbleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FumbleApp.swift; sourceTree = "<group>"; };
 		8C3422542B02D744007FE693 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8C3422562B02D746007FE693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C3422592B02D746007FE693 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C34225B2B02D746007FE693 /* Fumble.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fumble.entitlements; sourceTree = "<group>"; };
-		8C3422612B02DF44007FE693 /* Roll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll.swift; sourceTree = "<group>"; };
+		8C3422612B02DF44007FE693 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,8 @@
 			children = (
 				8C3422522B02D744007FE693 /* FumbleApp.swift */,
 				8C3422542B02D744007FE693 /* ContentView.swift */,
-				8C3422612B02DF44007FE693 /* Roll.swift */,
+				8C3422612B02DF44007FE693 /* Dice.swift */,
+				8C315CF42B04DB7F00808A98 /* Roller.swift */,
 				8C3422562B02D746007FE693 /* Assets.xcassets */,
 				8C34225B2B02D746007FE693 /* Fumble.entitlements */,
 				8C3422582B02D746007FE693 /* Preview Content */,
@@ -144,7 +147,8 @@
 			files = (
 				8C3422552B02D744007FE693 /* ContentView.swift in Sources */,
 				8C3422532B02D744007FE693 /* FumbleApp.swift in Sources */,
-				8C3422622B02DF44007FE693 /* Roll.swift in Sources */,
+				8C3422622B02DF44007FE693 /* Dice.swift in Sources */,
+				8C315CF52B04DB7F00808A98 /* Roller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

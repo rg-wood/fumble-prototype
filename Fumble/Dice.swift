@@ -1,3 +1,3 @@
-struct Roll {
+struct Dice {
     var name: String
 }
